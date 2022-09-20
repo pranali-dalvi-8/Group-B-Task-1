@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <style>
+        .MI{
+            height:50px;
+            padding-left: 30px;
+        }
+        .nav{
+            font-size: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: rgb(121, 118, 118);
+
+        }
+        .nav:hover{
+            font-size: 23px;
+        }
+       .first{
+        background-color: rgb(252, 225, 230);
+        display: flex;
+       }
+       .title{
+        font-size: 35px;
+        margin: 30px;
+        padding: 20px;
+       }
+       .para{
+        font-size: 25px;
+       }
+       
+       .second1{
+        font-size: 20px;
+        display: inline-block;
+        padding: 20px;
+        padding-left: 40px;
+        margin:10px ;
+        margin-left: 40px;
+       }
+       .second2{
+        display: inline-block;
+        margin: 20px;
+        margin-left: 300px;
+        border: 2px black solid;
+        box-shadow: 0px 0px 8px gray;
+       }
+       .second{
+        background-color: rgb(242, 234, 237);
+       }
+       .mainbtn{
+        margin-left: 150px;
+        font-size: 25px;
+        background-color: rgb(249, 217, 222);
+        border: 2px dashed rgb(239, 16, 158);
+        color:rgb(239, 16, 158) ;
+        border-radius: 10px;
+       }
+       .mainbtn:hover{
+        background-color:rgb(114, 242, 235);
+        border:2px dashed blue;
+        border-radius: 15px;
+       }
+       .dots{
+        background-color:  rgb(242, 234, 237);
+       }
+       .dotline{
+        margin-left: 650px;
+       }
+       .third1{
+        display:inline-block;
+        margin: 40px;
+        margin-left: 150px;
+        padding: 5px;
+        border: 2px solid rgb(239, 72, 156);
+        box-shadow: 0px 0px 8px rgb(84, 79, 79);
+       }
+       .del{
+        height: 50px;
+       }
+       .third2{
+        display:inline-block;
+        margin: 40px;
+        padding: 5px;
+        border: 2px solid rgb(239, 72, 156);
+        box-shadow: 0px 0px 8px rgb(84, 79, 79);
+       }
+       .third3{
+        display:inline-block;
+        margin: 40px;
+        padding: 5px;
+        border: 2px solid rgb(239, 72, 156);
+        box-shadow: 0px 0px 8px rgb(84, 79, 79);
+       }
+       .return{
+        height: 50px;
+       }
+       .cash{
+        height: 50px;
+
+       }
+       u{
+        font-size: 20px;
+        margin-left: 30px;
+       }
+      p{
+        margin: 20px;
+      }
+       .ti1{
+        display: inline-block;
+       }
+       .tp1{
+        display: inline-block;
+       }
+       .third{
+        background-color: rgb(225, 225, 225);
+       }
+       .first2{
+        display: flex;
+        align-items: center;
+       }
+       .search{
+        height:25px;
+        margin-left: 300px;
+        padding: 20px;
+       }
+       .shop{
+        height: 25px;
+        padding: 20px;
+       }
+       .f21{
+        padding: 20px;
+        font-size: 20px;
+       }
+       .four1{
+        font-size: 40px;
+        display: inline-block;
+        margin:10px;
+        margin-left: 50px;
+       }
+       .four2{
+        margin:10px;
+        display: inline-block;
+        font-size:20px ;
+        margin-left: 50px;
+       }
+       .four{
+        background-color: rgb(249, 211, 241);
+        padding: 20px;
+       }
+       .five1{
+        display: inline-block;
+            height: 350px;
+            width: 300px;
+            font-size: 20px;
+            border: solid 2px black;
+            border-radius: 10px;
+            padding:5px;
+            margin: 10px;
+            margin-left: 40px;
+            background-color: rgb(248, 219, 224);
+            box-shadow: 5px 5px 8px rgb(116, 112, 112) ;
+       }
+       .five11{
+        height:150px;
+        margin-left: 20px;
+        margin-top: 10px;
+       }
+       .five12{
+        font-size: 30px;
+        margin-left: 80px;
+       }
+       
+       .five2{
+        display: inline-block;
+            height: 350px;
+            width: 300px;
+            font-size: 20px;
+            border: solid 2px black;
+            border-radius: 10px;
+            padding:5px;
+            margin: 10px;
+            margin-left: 30px;
+            background-color: rgb(248, 219, 224);
+            box-shadow: 5px 5px 8px rgb(116, 112, 112) ;
+       
+       }
+       .five21{
+        height:150px;
+        width:250px;
+        margin-left: 20px;
+        margin-top: 10px;
+       }
+       .five3{
+        display: inline-block;
+            height: 350px;
+            width:300px;
+            font-size: 20px;
+            border: solid 2px black;
+            border-radius: 10px;
+            padding:5px;
+            margin: 10px;
+            margin-left: 30px;
+            background-color: rgb(248, 219, 224);
+            box-shadow: 5px 5px 8px rgb(116, 112, 112) ;
+       
+       }
+       .five31{
+        height: 150px;
+        width: 280px;
+        margin: 5px;
+       }
+       .five4{
+        display: inline-block;
+            height: 350px;
+            width: 300px;
+            font-size: 20px;
+            border: solid 2px black;
+            border-radius: 10px;
+            padding:5px;
+            margin: 10px;
+            margin-left: 30px;
+            background-color: rgb(248, 219, 224);
+            box-shadow: 5px 5px 8px rgb(116, 112, 112) ;
+       
+       }
+       .five22{
+        margin-left: 80px;
+       }
+       .cartbtn{
+        margin-left: 80px;
+        font-size: 22px;
+        background-color: aqua;
+        border: 2px dashed blue;
+        border-radius: 15px;
+        padding: 5px;
+       }
+       .cartbtn:hover{
+        background-color: rgb(222, 163, 202);
+        border: 2px solid rgb(249, 18, 187);
+        border-radius: 10px;
+       }
+       .five{
+        background-color: rgb(249, 237, 244);
+       
+       }
+    </style>
+</head>
+<body >
+    <div class="first">
+        <h1><img src="./images/MImg.png" class="MI">  Music Instruments</h1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <nav class="nav"> <a href="home.html" class="btn1">Home</a>&nbsp;&nbsp;
+            <a href="about.html" class="btn2">About</a>&nbsp;&nbsp;
+            <a href="Shop.html"class="btn3">Shop</a>&nbsp;&nbsp;
+            <a href="blog.html"class="btn4">Blog</a>&nbsp;&nbsp;
+            <a href="contact.html"class="btn5">Contact</a>
+        </nav>
+        <span class="first2"> 
+            <img src="./images/search.png" class="search">
+            <img src="./images/shop.png" class="shop">
+            <span class="f21"><b>Menu </b></span>
+        </span>
+    </div>
+    <div class="second">
+          <div class="second1">
+            <b class="title">Musical Instruments</b><br><br>
+            <span class="para">The best quality of musical instruments are here.<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Great prizes with great Offers .... </span><br><br><br>
+            <button class="mainbtn">See More</button>
+          </div >
+          <div class="second2">
+               <img src="./images/guitar.jpeg">   
+          </div>
+        </div>      
+         <div class="dots">
+             <img src="./images/line.png" class="dotline">
+          </div>
+          <div class="third">
+            <div class="third1">
+                <div class="ti1">
+               <img src="./images/delevery.png" class="del">
+            </div>
+             <div class="tp1"> 
+               <u><b>Fast Delivery</b></u>
+               <p>Our Delivery is totally free of charge.</p>
+            </div>
+            </div>
+            <div class="third2">
+            <div class="ti1">
+                <img src="./images/return.png" class="return"> 
+            </div>
+        <div class="tp1">
+            <u><b>Free Return </b></u>
+               <p>You can return ordered product free.</p>
+            </div>
+            </div>
+            <div class="third3">
+            <div class="ti1">
+                <img src="./images/cash.png" class="cash"> 
+            </div>
+        <div class="tp1">
+            <u><b>Cashon/Online Payment</b></u>
+               <p>You can Pay Online or On cash.</p>
+            </div>
+            </div> 
+          </div>
+          <div class="four">
+            <div class="four1">
+                  <b> Most Trending Products...</b>
+            </div>
+            <div class="four2">
+                <span>Now a days lots of instruments are popular but we find out latest popular and Trending product<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Just for you. These list out Product are Mostly awaited Prooducts.....</span>
+            </div>
+        </div>
+        <div class="five">
+            <div class="five1">
+                 <img src="./images/orchestra.jpeg" class="five11"><br>
+                 <span class="five12"><b>Orchestra</b></span><br><br>
+                 <span class="five22">$ <del>800.00</del> 400.00</span><br><br>
+                 <button class="cartbtn">Add Cart</button>
+                 
+            </div>
+            <div class="five2">
+                  <img src="./images/traditional.jpeg" class="five21">
+                  <span class="five12"><b>Traditional</b></span><br><br>
+                  <span class="five22">$ <del>400.00</del> 200.00</span><br><br>
+                  <button class="cartbtn">Add Cart</button>
+            </div>
+            <div class="five3">
+                <img src="./images/guitar.jpeg" class="five31"><br>
+                 <span class="five12"><b>Guitar</b></span><br><br>
+                 <span class="five22">$ <del>800.00</del> 400.00</span><br><br>
+                 <button class="cartbtn">Add Cart</button>
+             
+            </div>
+            <div class="five4">
+                <img src="./images/sitar.jpeg" class="five31"><br>
+                 <span class="five12"><b>Sitar</b></span><br><br>
+                 <span class="five22">$ <del>500.00</del> 300.00</span><br><br>
+                 <button class="cartbtn">Add Cart</button>
+            </div>
+
+        </div>
+    
+</body>
+</html>
