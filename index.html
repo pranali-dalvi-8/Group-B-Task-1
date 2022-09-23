@@ -18,8 +18,13 @@
             color: rgb(121, 118, 118);
 
         }
-        .nav:hover{
+        .btn1{
+            color:black;
+        }
+        .btn1:hover{
             font-size: 23px;
+            color: grey;
+            
         }
        .first{
         background-color: rgb(252, 225, 230);
@@ -50,7 +55,9 @@
         box-shadow: 0px 0px 8px gray;
        }
        .second{
+        background-color: rgb(252, 225, 230);
         background-color: rgb(242, 234, 237);
+        
        }
        .mainbtn{
         margin-left: 150px;
@@ -248,16 +255,26 @@
         background-color: rgb(249, 237, 244);
        
        }
+       .card:hover{
+        border:white 3px dashed;
+        box-shadow: 0px 3px 10px gray;
+        transition: 3s;
+       }
+       .th:hover{
+        border: 2px black dashed;
+        transition: 2s;
+       }
+    
     </style>
 </head>
 <body >
     <div class="first">
         <h1><img src="./images/MImg.png" class="MI">  Music Instruments</h1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <nav class="nav"> <a href="home.html" class="btn1">Home</a>&nbsp;&nbsp;
-            <a href="about.html" class="btn2">About</a>&nbsp;&nbsp;
-            <a href="Shop.html"class="btn3">Shop</a>&nbsp;&nbsp;
-            <a href="blog.html"class="btn4">Blog</a>&nbsp;&nbsp;
-            <a href="contact.html"class="btn5">Contact</a>
+            <a href="about.html" class="btn1">About</a>&nbsp;&nbsp;
+            <a href="Shop.html"class="btn1">Shop</a>&nbsp;&nbsp;
+            <a href="blog.html"class="btn1">Blog</a>&nbsp;&nbsp;
+            <a href="contact.html"class="btn1">Contact</a>
         </nav>
         <span class="first2"> 
             <img src="./images/search.png" class="search">
@@ -279,7 +296,7 @@
              <img src="./images/line.png" class="dotline">
           </div>
           <div class="third">
-            <div class="third1">
+            <div class="third1 th">
                 <div class="ti1">
                <img src="./images/delevery.png" class="del">
             </div>
@@ -288,7 +305,7 @@
                <p>Our Delivery is totally free of charge.</p>
             </div>
             </div>
-            <div class="third2">
+            <div class="third2 th">
             <div class="ti1">
                 <img src="./images/return.png" class="return"> 
             </div>
@@ -297,7 +314,7 @@
                <p>You can return ordered product free.</p>
             </div>
             </div>
-            <div class="third3">
+            <div class="third3 th">
             <div class="ti1">
                 <img src="./images/cash.png" class="cash"> 
             </div>
@@ -316,27 +333,27 @@
             </div>
         </div>
         <div class="five">
-            <div class="five1">
+            <div class="five1 card">
                  <img src="./images/orchestra.jpeg" class="five11"><br>
                  <span class="five12"><b>Orchestra</b></span><br><br>
                  <span class="five22">$ <del>800.00</del> 400.00</span><br><br>
                  <button class="cartbtn">Add Cart</button>
                  
             </div>
-            <div class="five2">
+            <div class="five2 card">
                   <img src="./images/traditional.jpeg" class="five21">
                   <span class="five12"><b>Traditional</b></span><br><br>
                   <span class="five22">$ <del>400.00</del> 200.00</span><br><br>
                   <button class="cartbtn">Add Cart</button>
             </div>
-            <div class="five3">
+            <div class="five3 card">
                 <img src="./images/guitar.jpeg" class="five31"><br>
                  <span class="five12"><b>Guitar</b></span><br><br>
                  <span class="five22">$ <del>800.00</del> 400.00</span><br><br>
                  <button class="cartbtn">Add Cart</button>
              
             </div>
-            <div class="five4">
+            <div class="five4 card">
                 <img src="./images/sitar.jpeg" class="five31"><br>
                  <span class="five12"><b>Sitar</b></span><br><br>
                  <span class="five22">$ <del>500.00</del> 300.00</span><br><br>
